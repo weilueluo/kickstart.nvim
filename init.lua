@@ -1,6 +1,4 @@
-
 vim.opt.number = true
-vim.opt.relativenumber = true
 -- enable mouse
 vim.opt.mouse = 'a'
 -- do not show mode since it is already done in status line
@@ -34,6 +32,5 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 
 -- easier way to exit terminal mode
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-
 
 require 'config.lazy'
